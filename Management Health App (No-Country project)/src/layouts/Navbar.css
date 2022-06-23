@@ -1,0 +1,47 @@
+.ul {
+    display: inline-flex;
+    margin: 25px;
+    z-index: +400;
+  }
+  li {
+    display: flex;
+    margin-top: 20px;
+    z-index: +400;
+  }
+  .Nav_Link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    z-index: +400;
+  }
+  .Nav_DivLink{
+    margin-left: 50px;
+    text-align: center;
+    width: 9rem;
+    border-radius: 8%;
+  }
+  /* navbar style */
+  .ul .Nav_DivLink {
+    position: relative;
+  }
+  .Nav_DivLink::before {
+    z-index: -300;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #00ee7781;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.4s ease-in-out;
+  }
+  .Nav_DivLink:hover::before {
+    z-index: -300;
+    transform-origin: left;
+    transform: scaleX(1);
+  }

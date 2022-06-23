@@ -1,0 +1,19 @@
+#Consulta_ContainerBackground{
+    width:60%;
+    background-color:#00ee7781;
+}
+
+#Submit_Text{
+    width: 172px;
+    height: 47px;
+    background-color: #B632F4;
+    color: white;
+    border: none;
+}
+
+#Delete_Text{
+    width: 172px;
+    border: 2px solid #B632F4;
+    color: #B632F4;
+    height: 47px;
+}

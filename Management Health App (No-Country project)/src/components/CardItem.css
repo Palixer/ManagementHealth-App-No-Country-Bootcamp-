@@ -1,0 +1,20 @@
+#Card_Body{
+    background-color: #00ee77c3;
+}
+#Card_AddToCart{
+    border: none;
+    padding: 8PX;
+    width: 120px;
+}
+/* #Card_AddToCart:hover{
+    background-color: black;
+    transition: 1s;
+    color: white;
+} */
+
+
+#FlexContent{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}

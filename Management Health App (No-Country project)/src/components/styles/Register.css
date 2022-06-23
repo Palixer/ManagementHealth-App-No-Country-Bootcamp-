@@ -1,0 +1,154 @@
+#Register_Form{
+    position: absolute;
+    left: 25%;
+    width: 40%;
+    top: 200px;
+    height: auto;
+    text-align: start;
+    z-index: +500;
+   
+}
+
+label {
+
+    display: flex;
+    margin-bottom: 0;
+  }
+  
+  input + label {
+
+    display: inline-flex;
+    margin-right: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea,
+  select {
+    display: block;
+    width: 400px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+  }
+
+.Form_Inputs{
+    border: none;
+    margin-top: 8px;
+    height: 45px;
+    width: 98%;
+    background-color: #e5e5e5;
+}
+
+#Form_buttonRegister{
+    width: 99%;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    cursor: pointer;
+    border: none;
+    background-color: #6e6e6e;
+    color: white;
+}
+#Background_Oblong{
+    width: 250px;
+    position: relative;
+    top: 19rem;
+    right: 130px;
+    transform: rotate(-27.46deg);
+    height: 200px;
+    background: linear-gradient(#B632F4 , rgb(240, 239, 239));
+    border-radius: 90px;
+    overflow: hidden;
+}
+#Background_Oblong2{
+    width: 400px;
+    position: relative;
+    top: 22rem;
+    right: 130px;
+    transform: rotate(-27.46deg);
+    height: 200px;
+    background: #00ff8081;
+    border-radius: 90px;
+    overflow: hidden;
+}
+
+
+
+#Form_HaveAccount{
+    margin-top: 8px;
+}
+.Register_InputDivs{
+    margin-top: 8px;
+}
+
+#Form_HaveAccLink{
+     font-size: 15px;
+     color: #005CF7;
+     text-decoration: none;
+}
+#Form_HaveAccLink:hover{
+    color: #005eff;
+}
+#Background_Photo{
+    overflow: hidden;
+    position: absolute;
+    top: 31%;
+    left: 60%;
+}
+
+
+
+@media (max-width: 525px) {
+    #Register_Form{
+        left: 10%;
+        width: 70%;
+        top: 200px;
+        height: auto;
+        text-align: start;
+        z-index: +500;
+       
+    }
+
+
+    #Background_Photo{
+        display: none;
+    }
+
+
+    #Background_Oblong{
+        width: 250px;
+        position: relative;
+        top: 15rem;
+        right: 130px;
+        transform: rotate(-27.46deg);
+        height: 200px;
+        background: linear-gradient(#B632F4 , rgb(240, 239, 239));
+        border-radius: 90px;
+        overflow: hidden;
+    }
+    #Background_Oblong2{
+        width: 400px;
+        position: relative;
+        top: 16rem;
+        right: 130px;
+        transform: rotate(-27.46deg);
+        height: 200px;
+        background: #00ff8081;
+        border-radius: 90px;
+        overflow: hidden;
+    }
+    
+
+
+  }
